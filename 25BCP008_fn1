@@ -9,6 +9,6 @@ def count_lower_upper(str):
             dict["lowercase"]+=1
     return dict
     
-str="Hello World"
+str=input("Enter a string:")
 print(count_lower_upper(str))
             
