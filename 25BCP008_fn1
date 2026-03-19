@@ -1,0 +1,14 @@
+
+
+def count_lower_upper(str):
+    dict={"uppercase":0, "lowercase":0}
+    for ch in str:
+        if ch.isupper():
+            dict["uppercase"]+=1
+        elif ch.islower():
+            dict["lowercase"]+=1
+    return dict
+    
+str="Hello World"
+print(count_lower_upper(str))
+            
