@@ -1,0 +1,7 @@
+def compute(n, curr=0, count=0):
+    if count==4:
+        return 0
+    curr=curr*10+n
+    return curr+compute(n,curr, count+1)
+for i in range(4,8):
+    print(compute(i))
